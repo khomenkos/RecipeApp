@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3850A0F25B738370034DBE8 /* HealthRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850A0E25B738370034DBE8 /* HealthRecipesApp.swift */; };
+		E3850A1125B738370034DBE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850A1025B738370034DBE8 /* ContentView.swift */; };
+		E3850A1325B7383A0034DBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3850A1225B7383A0034DBE8 /* Assets.xcassets */; };
+		E3850A1625B7383A0034DBE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3850A1525B7383A0034DBE8 /* Preview Assets.xcassets */; };
+		E3850A2125B7383A0034DBE8 /* HealthRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850A2025B7383A0034DBE8 /* HealthRecipesTests.swift */; };
+		E3850A2C25B7383A0034DBE8 /* HealthRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850A2B25B7383A0034DBE8 /* HealthRecipesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3850A1D25B7383A0034DBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3850A0325B738370034DBE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3850A0A25B738370034DBE8;
+			remoteInfo = HealthRecipes;
+		};
+		E3850A2825B7383A0034DBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3850A0325B738370034DBE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3850A0A25B738370034DBE8;
+			remoteInfo = HealthRecipes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3850A0B25B738370034DBE8 /* HealthRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3850A0E25B738370034DBE8 /* HealthRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecipesApp.swift; sourceTree = "<group>"; };
+		E3850A1025B738370034DBE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3850A1225B7383A0034DBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3850A1525B7383A0034DBE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3850A1725B7383A0034DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3850A1C25B7383A0034DBE8 /* HealthRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3850A2025B7383A0034DBE8 /* HealthRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecipesTests.swift; sourceTree = "<group>"; };
+		E3850A2225B7383A0034DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3850A2725B7383A0034DBE8 /* HealthRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3850A2B25B7383A0034DBE8 /* HealthRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecipesUITests.swift; sourceTree = "<group>"; };
+		E3850A2D25B7383A0034DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3850A0825B738370034DBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A1925B7383A0034DBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A2425B7383A0034DBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3850A0225B738370034DBE8 = {
+			isa = PBXGroup;
+			children = (
+				E3850A0D25B738370034DBE8 /* HealthRecipes */,
+				E3850A1F25B7383A0034DBE8 /* HealthRecipesTests */,
+				E3850A2A25B7383A0034DBE8 /* HealthRecipesUITests */,
+				E3850A0C25B738370034DBE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3850A0C25B738370034DBE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3850A0B25B738370034DBE8 /* HealthRecipes.app */,
+				E3850A1C25B7383A0034DBE8 /* HealthRecipesTests.xctest */,
+				E3850A2725B7383A0034DBE8 /* HealthRecipesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3850A0D25B738370034DBE8 /* HealthRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				E3850A0E25B738370034DBE8 /* HealthRecipesApp.swift */,
+				E3850A1025B738370034DBE8 /* ContentView.swift */,
+				E3850A1225B7383A0034DBE8 /* Assets.xcassets */,
+				E3850A1725B7383A0034DBE8 /* Info.plist */,
+				E3850A1425B7383A0034DBE8 /* Preview Content */,
+			);
+			path = HealthRecipes;
+			sourceTree = "<group>";
+		};
+		E3850A1425B7383A0034DBE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3850A1525B7383A0034DBE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3850A1F25B7383A0034DBE8 /* HealthRecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3850A2025B7383A0034DBE8 /* HealthRecipesTests.swift */,
+				E3850A2225B7383A0034DBE8 /* Info.plist */,
+			);
+			path = HealthRecipesTests;
+			sourceTree = "<group>";
+		};
+		E3850A2A25B7383A0034DBE8 /* HealthRecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3850A2B25B7383A0034DBE8 /* HealthRecipesUITests.swift */,
+				E3850A2D25B7383A0034DBE8 /* Info.plist */,
+			);
+			path = HealthRecipesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3850A0A25B738370034DBE8 /* HealthRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3850A3025B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipes" */;
+			buildPhases = (
+				E3850A0725B738370034DBE8 /* Sources */,
+				E3850A0825B738370034DBE8 /* Frameworks */,
+				E3850A0925B738370034DBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthRecipes;
+			productName = HealthRecipes;
+			productReference = E3850A0B25B738370034DBE8 /* HealthRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3850A1B25B7383A0034DBE8 /* HealthRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3850A3325B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipesTests" */;
+			buildPhases = (
+				E3850A1825B7383A0034DBE8 /* Sources */,
+				E3850A1925B7383A0034DBE8 /* Frameworks */,
+				E3850A1A25B7383A0034DBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3850A1E25B7383A0034DBE8 /* PBXTargetDependency */,
+			);
+			name = HealthRecipesTests;
+			productName = HealthRecipesTests;
+			productReference = E3850A1C25B7383A0034DBE8 /* HealthRecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3850A2625B7383A0034DBE8 /* HealthRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3850A3625B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipesUITests" */;
+			buildPhases = (
+				E3850A2325B7383A0034DBE8 /* Sources */,
+				E3850A2425B7383A0034DBE8 /* Frameworks */,
+				E3850A2525B7383A0034DBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3850A2925B7383A0034DBE8 /* PBXTargetDependency */,
+			);
+			name = HealthRecipesUITests;
+			productName = HealthRecipesUITests;
+			productReference = E3850A2725B7383A0034DBE8 /* HealthRecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3850A0325B738370034DBE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E3850A0A25B738370034DBE8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E3850A1B25B7383A0034DBE8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E3850A0A25B738370034DBE8;
+					};
+					E3850A2625B7383A0034DBE8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E3850A0A25B738370034DBE8;
+					};
+				};
+			};
+			buildConfigurationList = E3850A0625B738370034DBE8 /* Build configuration list for PBXProject "HealthRecipes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3850A0225B738370034DBE8;
+			productRefGroup = E3850A0C25B738370034DBE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3850A0A25B738370034DBE8 /* HealthRecipes */,
+				E3850A1B25B7383A0034DBE8 /* HealthRecipesTests */,
+				E3850A2625B7383A0034DBE8 /* HealthRecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3850A0925B738370034DBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3850A1625B7383A0034DBE8 /* Preview Assets.xcassets in Resources */,
+				E3850A1325B7383A0034DBE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A1A25B7383A0034DBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A2525B7383A0034DBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3850A0725B738370034DBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3850A1125B738370034DBE8 /* ContentView.swift in Sources */,
+				E3850A0F25B738370034DBE8 /* HealthRecipesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A1825B7383A0034DBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3850A2125B7383A0034DBE8 /* HealthRecipesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3850A2325B7383A0034DBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3850A2C25B7383A0034DBE8 /* HealthRecipesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3850A1E25B7383A0034DBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3850A0A25B738370034DBE8 /* HealthRecipes */;
+			targetProxy = E3850A1D25B7383A0034DBE8 /* PBXContainerItemProxy */;
+		};
+		E3850A2925B7383A0034DBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3850A0A25B738370034DBE8 /* HealthRecipes */;
+			targetProxy = E3850A2825B7383A0034DBE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3850A2E25B7383A0034DBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3850A2F25B7383A0034DBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3850A3125B7383A0034DBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthRecipes/Preview Content\"";
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HealthRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3850A3225B7383A0034DBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthRecipes/Preview Content\"";
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HealthRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3850A3425B7383A0034DBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				INFOPLIST_FILE = HealthRecipesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthRecipes.app/HealthRecipes";
+			};
+			name = Debug;
+		};
+		E3850A3525B7383A0034DBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				INFOPLIST_FILE = HealthRecipesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthRecipes.app/HealthRecipes";
+			};
+			name = Release;
+		};
+		E3850A3725B7383A0034DBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				INFOPLIST_FILE = HealthRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthRecipes;
+			};
+			name = Debug;
+		};
+		E3850A3825B7383A0034DBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PHUAXQLZ;
+				INFOPLIST_FILE = HealthRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.HealthRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthRecipes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3850A0625B738370034DBE8 /* Build configuration list for PBXProject "HealthRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3850A2E25B7383A0034DBE8 /* Debug */,
+				E3850A2F25B7383A0034DBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3850A3025B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3850A3125B7383A0034DBE8 /* Debug */,
+				E3850A3225B7383A0034DBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3850A3325B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3850A3425B7383A0034DBE8 /* Debug */,
+				E3850A3525B7383A0034DBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3850A3625B7383A0034DBE8 /* Build configuration list for PBXNativeTarget "HealthRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3850A3725B7383A0034DBE8 /* Debug */,
+				E3850A3825B7383A0034DBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3850A0325B738370034DBE8 /* Project object */;
+}
