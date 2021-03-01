@@ -1,5 +1,5 @@
 # RecipeApp_SwiftUI
-🥦Recipe App Swift UI
+🥦 Recipe App Swift UI
 
 # Screenshots
 ![GitHub Logo](GIT.png)
