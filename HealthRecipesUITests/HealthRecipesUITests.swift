@@ -2,7 +2,8 @@
 //  HealthRecipesUITests.swift
 //  HealthRecipesUITests
 //
-//  Created by  Sasha Khomenko on 19.01.2021.
+//  Created by  Sasha Khomenko on 20.01.2021.
+//  Copyright © 2021  Sasha Khomenko. All rights reserved.
 //
 
 import XCTest
